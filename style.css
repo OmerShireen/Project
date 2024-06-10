@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato,sans-serif;
+}
+.container{
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(180deg, #0084D6 -50%,#02020247 100%);
+    background-size: cover;
+    
+    
+   
+    position: relative;
+}
+
+.container h3 {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.rain-con{
+    margin: 110px 77px;
+}
+
+.container::before {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg);
+}
+.text1{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+.btn1{
+    border: none;
+    padding: 16px 28px;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: white;
+}
+.btn1:hover{
+    color: white;
+    background-color: black;
+}
+.btn2{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+.nav-list{
+    width: 100%;
+    display: flex;
+    padding: 23px;
+    align-items: center;
+}
+.nav-list li{
+    padding: 13px;
+    font-weight: 650;
+    font-size: 16px;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+.rightNav{
+    width: 100%;
+}
+.nav-list1{
+    display: flex;
+    justify-content: right;
+    padding: 23px; 
+}
+.rightNav span{
+    display: flex;
+   color: black;
+   width: 15px;
+   height: 15px;
+   background-color: white;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   right: 67px;
+   top: 28px;
+}
+.nav-list1 li{
+    padding: 13px;
+    font-weight: 650;
+    font-size: 16px;
+    list-style: none;
+}
+.nav-list1 a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+  
+  /* Account icon styles */
+  .account-icon {
+    color: #fff;
+    font-size: 1.2rem;
+    position: relative;
+  } 
+  /*logo css */
+.logo{
+    padding-top: 90px;
+    padding-left: 120px;
+    justify-content: center;
+    align-items: center;
+}
+/* 3 images */
+.image-container{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+        padding-bottom: 150px;
+}
+.btn{
+    margin-top: 370px;
+    margin-left: 45px;
+}
+.image{
+    height: 476px;
+    width: 370px;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+.image1{
+    background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/women-fashion-free-img.jpg");
+    margin-left: 75px;
+    
+}
+.image2{
+    background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/men-fashion-free-img.jpg");
+    background-position: center center;
+   
+}
+.image3{
+    background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/footwear-free-img.jpg");
+    margin-right: 75px;
+}
+/*Products  */
+.products-container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0 25px;
+    padding: 0 5px;
+    background-color: #f5f7f9;
+    
+}
+.products-container h4{
+    padding-top: 15px;
+}
+.text2{
+    margin: 110px 77px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    font-size: 42px;
+}
+div a{
+ text-decoration: none;
+ list-style: none;
+ color: rgba(0, 0, 0, 0.829);
+ font-family: 'Roboto', sans-serif;
+
+}
+.bImg{
+    display: flex;
+    align-items: center;
+    height: 450px;
+    background: linear-gradient(100deg, #2f82b5 0%, #00000000 100%);
+    position: relative;
+    margin: 10px;
+}
+.bImg::before{
+    background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    position: absolute;
+    content: "";
+}
+/*2nd logos*/
+.logos{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 120px;
+}
+.logo3{
+    height: 50px;
+    width: 100%;
+}
+.bImg-txt-con {
+    color: white;
+    margin-left: 100px;
+    /* display: flex;/ */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+.bImg-txt-con-h4-1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.bImg-txt-con-h4-2 {
+    margin: 30px 0;
+    font-size: 20px;
+}
+.bImg-txt-con h2 {
+    margin-bottom: 30px;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.bImg-txt-con p {
+    width: 69%;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.line {
+    width: 100px;
+    margin: auto;
+    height: 3px;
+    background-color: #0084d6;
+    margin: -84px auto 0;
+}
+
+.line-con {
+    width: 100%;
+}
+
+.pro-card {
+    margin: 20px 10px 30px;
+    background-color: #f1f1f1;
+    padding: 0px 0px 25px;
+    position: relative;
+}
+.icon2 {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.pro-img {
+    background-size: 100% 100%;
+    height: 243px;
+     width: 235px;
+}
+.pro-name {
+    font-weight: bolder;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.pro-cat {margin-bottom: 10px;
+     color: #333333;
+}
+.pro-price {
+    font-weight: bold;
+}
+
+.pro-cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart{
+    height: 100vh;
+    width: 40%;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.addtocart {
+    cursor: pointer;
+}
+.cart-txt-1{
+    padding: 10px 30px;
+}
+
+.cart-txt-2{
+    cursor: pointer;
+    padding: 10px 30px;
+
+}
+
+.cart-txt-con {
+    font-size: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addcart{
+    background-color: paleturquoise;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addcart-img {
+    width: 60px;
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.add-img-price-con{
+    padding-left: 20px;
+}
+
+.addcart-delete-btn {
+    padding-right: 20px;
+}
